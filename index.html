@@ -2,11 +2,31 @@
 <html>
 <head>
 <style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
 .center {
   margin: auto;
   width: 60%;
   border: 3px solid #73AD21;
   padding: 10px;
+  text-align: center;
 }
 </style>
 </head>
@@ -16,6 +36,7 @@
 <p>unclear if i want to use</p>
 
 <div class="center">
+  <p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
   <p>Unfortunately my personal website is under construction please click here for my temporary website.</p>
 </div>
 
