@@ -1,43 +1,46 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-/* unvisited link */
-a:link {
-  color: red;
-}
+---
+layout: default
+robots: noindex
+---
 
-/* visited link */
-a:visited {
-  color: green;
-}
+<!--<div class="main-post-list">-->
 
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
+  <ul class="timeline">
+    
+    {% for project in site.data.projects %}
 
-/* selected link */
-a:active {
-  color: blue;
-}
-.center {
-  margin: auto;
-  width: 60%;
-  border: 3px solid #73AD21;
-  padding: 10px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="img-me" src="{{ project.img | prepend: site.baseurl }}" alt="">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4><a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank">{{ project.name }}</a></h4>
+          </div>
+          <div class="timeline-body">
+            {% if project.desc %}
+              {{ project.desc | markdownify }}
+            {% else %}
+            <div repotext="{{ project.repo }}">
+              <span class="desc"></div>
+            </div>
+            {% endif %}
+            <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn" style="margin-top: 10px;">
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+              <a target="_blank" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers"> ...</span></a>
+              <div style="height: 10px;"></div>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+    <!--
+    <li class="timeline-inverted">
+      <div class="timeline-image">
+        <img class="user-image" src="{{site.baseurl}}{{ site.timeline-img }}" alt="">
+      </div>
+    </li> -->
+  </ul>
 
-<h2>Laurie Jones's Website</h2>
+<!--</div>-->
 
-<div class="center">
-  <p></p>
-  <p>Unfortunately my personal website is under construction. Please click <b><a href="https://475mnws4bh.wixsite.com/hlauriejones" target="_blank">here</a></b> for my temporary website.</p>
-</div>
-
-</body>
-</html>
