@@ -1,9 +1,10 @@
 # Site settings
-title: Thomas Zühlke
+title: Laurie Jones
 description: 'Business Card Page'
-url: 'https://www.zuehlke.cloud'
+# url: 'https://www.zuehlke.cloud'
+url: 'https://hlauriejones.github.io'
 baseurl: ''
-profilepic: '/images/tzuehlke.jpg'
+profilepic: '/images/hlj_headshot.jpg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
