@@ -1,5 +1,5 @@
 # Site settings
-title: Thomas Zühlke
+title: Laurie JOnes
 description: 'Business Card Page'
 url: 'https://www.zuehlke.cloud'
 baseurl: ''
@@ -11,12 +11,12 @@ font_awesome: 'XXXXXXXXXX.js'
 author:
   name: 'Laurie Jones'
   email: laurie.jones@colorado.edu
-  mastodon: tzuehlke@mstdn.social
-  twitter_username: thomzuehlke
+  mastodon: hlauriejones@mastodon.social
+  twitter_username: HLaurieJones
 #  facebook_username: joshgerdes
   github_username:  hlauriejones
-  linkedin_username:  thomas-zühlke-889182165
-  meetup_name: Azure-Meetup-Rostock-MV
+  linkedin_username:  laurie-jones-090560130
+  # meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
 destination: _site
