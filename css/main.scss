@@ -50,11 +50,23 @@ pre.highlight code,
     margin: 0 20px 10px;
 }
 
+
+//this makes it a small square above the text
+// .user-image {
+//   margin-bottom: 1.2em;
+//   position: relative;
+//   width: 100px;
+//   height: 100px;
+//   border: 3px solid #fff;
+//   // border-radius:100%;
+// }
+
+//i want to move it to the side of the text
 .user-image {
-  margin-bottom: 1.2em;
-  position: relative;
-  width: 100px;
-  height: 400px;
-  border: 3px solid #fff;
-  // border-radius:100%;
-}
+    margin-left: 1.2em;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff;
+    // border-radius:100%;
+  }
