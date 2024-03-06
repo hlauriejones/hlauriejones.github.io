@@ -1,12 +1,32 @@
 # Site settings
-title: Laurie Jones
+# title: Laurie Jones
+# description: 'Business Card Page'
+# # url: 'https://www.zuehlke.cloud'
+# url: 'https://hlauriejones.github.io'
+# baseurl: ''
+# profilepic: '/images/LaurieHeadshot.jpg'
+# bkimage: '/images/desertTrial1.jpeg'
+# # google_analytics: UA-XXXXXX-X
+# font_awesome: 'XXXXXXXXXX.js'
+
+# author:
+#   name: 'Laurie Jones'
+#   email: laurie.jones@colorado.edu
+#   mastodon: hlauriejones@mastodon.social
+#   twitter_username: HLaurieJones
+# #  facebook_username: joshgerdes
+#   github_username:  hlauriejones
+#   linkedin_username:  laurie-jones-090560130
+#   # meetup_name: Azure-Meetup-Rostock-MV
+
+# Site settings
+title: Thomas Zühlke
 description: 'Business Card Page'
-# url: 'https://www.zuehlke.cloud'
-url: 'https://hlauriejones.github.io'
+url: 'https://www.zuehlke.cloud'
 baseurl: ''
-profilepic: '/images/LaurieHeadshot.jpg'
-bkimage: '/images/desertTrial1.jpeg'
-# google_analytics: UA-XXXXXX-X
+profilepic: '/images/tzuehlke.jpg'
+bkimage: '/images/bk1.jpg'
+google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
 
 author:
@@ -19,16 +39,6 @@ author:
   linkedin_username:  thomas-zühlke-889182165
   meetup_name: Azure-Meetup-Rostock-MV
 
-
-# author:
-#   name: 'Laurie Jones'
-#   email: laurie.jones@colorado.edu
-#   mastodon: hlauriejones@mastodon.social
-#   twitter_username: HLaurieJones
-# #  facebook_username: joshgerdes
-#   github_username:  hlauriejones
-#   linkedin_username:  laurie-jones-090560130
-#   # meetup_name: Azure-Meetup-Rostock-MV
 
 # Build settings
 destination: _site
